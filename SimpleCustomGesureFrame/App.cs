@@ -3,11 +3,11 @@ using Xamarin.Forms;
 
 namespace SimpleCustomGesureFrame
 {
-	public class App
+	public class App : Application
 	{
-		public static Page GetMainPage ()
+		public App()
 		{
-			return new MainView();
+			MainPage = new MainView();
 		}
 	}
 }

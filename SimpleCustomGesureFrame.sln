@@ -54,9 +54,6 @@ Global
 		{67485546-6F5B-443D-9B9D-B68B668632DC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{67485546-6F5B-443D-9B9D-B68B668632DC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = SimpleCustomGesureFrame.iOS\SimpleCustomGesureFrame.iOS.csproj
-	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SimpleCustomGesureFrame\SimpleCustomGesureFrame.projitems*{7510c578-c7d5-410a-aaeb-2c97507cd675}*SharedItemsImports = 13
 		SimpleCustomGesureFrame\SimpleCustomGesureFrame.projitems*{32ed071c-21d1-45f6-aa72-3af656447e38}*SharedItemsImports = 4

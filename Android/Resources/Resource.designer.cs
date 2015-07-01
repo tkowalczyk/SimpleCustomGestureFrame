@@ -26,6 +26,8 @@ namespace SimpleCustomGesureFrame.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::SimpleCustomGesureFrame.Android.Resource.String.ApplicationName;
+			global::Xamarin.Forms.Platform.Resource.String.Hello = global::SimpleCustomGesureFrame.Android.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -93,10 +95,16 @@ namespace SimpleCustomGesureFrame.Android
 		{
 			
 			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			public const int ApplicationName = 2130968577;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int app_name = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int hello = 2130968578;
 			
 			static String()
 			{

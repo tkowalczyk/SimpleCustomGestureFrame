@@ -14,7 +14,7 @@ using Xamarin.Forms.Platform.Android;
 namespace SimpleCustomGesureFrame.Android
 {
 	[Activity (Label = "SimpleCustomGesureFrame.Android.Android", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-	public class MainActivity : AndroidActivity
+	public class MainActivity : FormsApplicationActivity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -22,8 +22,7 @@ namespace SimpleCustomGesureFrame.Android
 
 			Xamarin.Forms.Forms.Init (this, bundle);
 
-			SetPage (App.GetMainPage ());
+			LoadApplication (new App ());
 		}
 	}
 }
-
