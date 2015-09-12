@@ -15,6 +15,8 @@ namespace SimpleCustomGesureFrame.Android
 
 		public override bool OnFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY)
 		{
+			Console.WriteLine ("OnFling");
+
 			float diffY = e2.GetY() - e1.GetY();
 			float diffX = e2.GetX() - e1.GetX();
 
@@ -47,7 +49,7 @@ namespace SimpleCustomGesureFrame.Android
 						OnSwipeTop(this, null);
 				}
 			}
-			return true;
+			return base.OnFling (e1, e2, velocityX, velocityY);
 		}
 	}
 }

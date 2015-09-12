@@ -7,15 +7,11 @@ namespace SimpleCustomGesureFrame
 	{
 		public MainView ()
 		{
-			StackLayout sl = new StackLayout {
+			GestureFrame gi = new GestureFrame
+			{
 				HorizontalOptions = LayoutOptions.FillAndExpand,
 				VerticalOptions = LayoutOptions.FillAndExpand,
 				BackgroundColor = Color.FromHex("bf3122"),
-			};
-
-			GestureFrame gi = new GestureFrame
-			{
-				Content = sl,
 			};
 
 			gi.SwipeDown += (s, e) =>
